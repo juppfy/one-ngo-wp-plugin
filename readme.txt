@@ -3,7 +3,7 @@ Contributors: uppfy
 Donate link: https://1-ngo.uppfy.com
 Tags: donations, fundraising, nonprofit, campaigns, events
 Requires at least: 6.4
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 8.1
 Stable tag: 1.2.4
 License: GPLv2 or later
@@ -83,7 +83,7 @@ Terms: https://uppfy.com/1-ngo/terms-of-use
 == Changelog ==
 
 = 1.2.4 =
-* Public source repository URL, contributor list, and uninstall transient key validation for WordPress.org review.
+* Public source repository URL, contributor list, uninstall transient key validation, and Tested up to 7.1 for WordPress.org review.
 
 = 1.2.3 =
 * Official plugin name is One NGO Fundraising. Text domain and zip folder are one-ngo-fundraising.
