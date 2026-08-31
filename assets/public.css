@@ -1,0 +1,127 @@
+.one-ngo-root {
+  --one-ngo-primary: #184b3a;
+  --one-ngo-accent: #c4a35a;
+  --one-ngo-bg: #f7faf8;
+  --one-ngo-text: #1c2b24;
+  color: var(--one-ngo-text);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.one-ngo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.one-ngo-card {
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--one-ngo-primary) 16%, #fff);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(24, 48, 38, 0.06);
+}
+
+.one-ngo-cover {
+  display: block;
+  aspect-ratio: 16 / 10;
+  background: #edf3ef;
+}
+
+.one-ngo-cover img,
+.one-ngo-hero img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.one-ngo-card-body {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+}
+
+.one-ngo-card-body h2,
+.one-ngo-article h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.one-ngo-card-body a,
+.one-ngo-cta {
+  color: var(--one-ngo-primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.one-ngo-cta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+}
+
+.one-ngo-article {
+  display: grid;
+  gap: 16px;
+  max-width: 760px;
+}
+
+.one-ngo-lede,
+.one-ngo-meta,
+.one-ngo-empty {
+  color: #5b6b64;
+}
+
+.one-ngo-hero {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.one-ngo-prose :where(p, h2, h3, ul, ol, blockquote, figure) {
+  margin: 0 0 1em;
+}
+
+.one-ngo-prose img {
+  max-width: 100%;
+  height: auto;
+}
+
+.one-ngo-checkout {
+  margin-top: 24px;
+}
+
+body.one-ngo-full-page .entry-header,
+body.one-ngo-full-page .page-header,
+body.one-ngo-full-page .wp-block-post-title,
+body.one-ngo-full-page .entry-title {
+  display: none !important;
+}
+
+body.one-ngo-full-page .entry-content,
+body.one-ngo-full-page .wp-block-post-content,
+body.one-ngo-full-page .site-main,
+body.one-ngo-full-page article,
+body.one-ngo-full-page .one-ngo-main {
+  max-width: none !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.one-ngo-page-wrap,
+.one-ngo-page-frame {
+  display: block;
+  width: 100%;
+  max-width: none;
+  border: 0;
+}
+
+.one-ngo-page-frame {
+  min-height: 70vh;
+  height: 70vh;
+}
